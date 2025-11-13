@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.retanguloEsquerda {
+    width: 180px;
+    height: 200px;
+    background-color: #008b8b;
+}
+
+.retanguloCentro {
+    flex: 1;
+    height: 90px;
+    background-color: #d9ff00;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quadrado1 {
+    width: 90px;
+    height: 75px;
+    background-color: #ff7b22;
+}
+
+.quadrado2 {
+    width: 90px;
+    height: 75px;
+    background-color: #ff00c8;
+}
+
+.meio {
+    background-color: #00067a;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quadradoLaranja {
+    width: 65px;
+    height: 65px;
+    border: 6px solid #ff4e27;
+    background-color: transparent;
+}
+
+.inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barraAzul {
+    height: 40px;
+    width: 45%;
+    background-color: #66a3ff;
+    border-radius: 6px;
+}
+
+.barraVermelha {
+    height: 40px;
+    width: 45%;
+    background-color: #ff0000;
+    border-radius: 6px;
+}
+
+@media  screen and (max-width: 450px ) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .topo {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .retanguloEsquerda {
+        width: 120px;
+        height: 140px;
+    }
+
+
+    .retanguloCentro {
+        flex: 1;
+        height: 60px;
+    }
+
+
+    .quadrado1 {
+        width: 60px;
+        height: 50px;
+    }
+
+
+    .quadrado2 {
+        width: 60px;
+        height: 50px;
+    }
+
+    .meio {
+        height: 100px;
+    }
+
+    .quadradoLaranja {
+        width: 45px;
+        height: 45px;
+    }
+
+.barraAzul {
+    height: 25px;
+    width: 45%;
+    }
+
+
+.barraVermelha {
+    height: 25px;
+    width: 43%;
+    }
+
+}
